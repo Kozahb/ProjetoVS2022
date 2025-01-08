@@ -23,7 +23,7 @@ namespace SalesWebMVC
                 );
             builder.Services.AddScoped<SeedingService>();
             builder.Services.AddScoped<SellerService>();
-            builder.Services.AddScoped<Department>();
+            builder.Services.AddScoped<DepartmentService>();
             builder.Services.AddScoped<SalesRecord>();
 
             // Add services to the container.
