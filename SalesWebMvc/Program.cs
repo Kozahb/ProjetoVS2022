@@ -2,10 +2,11 @@ using Microsoft.AspNetCore.Localization;
 using Microsoft.EntityFrameworkCore;
 using SalesWebMvc.Data;
 using SalesWebMvc.Models;
-using SalesWebMvc.Data;
 using SalesWebMvc.Services;
-
 using System.Globalization;
+
+
+
 namespace SalesWebMVC
 {
     public class Program
@@ -30,6 +31,8 @@ namespace SalesWebMVC
             builder.Services.AddControllersWithViews();
 
             var app = builder.Build();
+
+          
 
             // CultureInfo, Localization
             // https://learn.microsoft.com/en-us/aspnet/core/fundamentals/localization/select-language-culture?view=aspnetcore-8.0
