@@ -38,6 +38,7 @@ namespace SalesWebMvc.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Seller seller)
         {
+        
             if (!ModelState.IsValid)
             {
                 var departments = await _departmentService.FindAllAsync();
